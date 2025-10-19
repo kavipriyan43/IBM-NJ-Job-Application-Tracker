@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Application Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>💼 Job Application Tracker</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add New Application</h2>
+      <form id="jobForm">
+        <input type="text" id="company" placeholder="Company Name" required />
+        <input type="text" id="position" placeholder="Job Position" required />
+        <input type="date" id="dateApplied" required />
+        <select id="status" required>
+          <option value="Applied">Applied</option>
+          <option value="Interview">Interview</option>
+          <option value="Offer">Offer</option>
+          <option value="Rejected">Rejected</option>
+        </select>
+        <textarea id="notes" placeholder="Notes (optional)"></textarea>
+        <button type="submit">Add Application</button>
+      </form>
+    </section>
+
+    <section class="list-section">
+      <h2>Applications List</h2>
+      <table id="applicationsTable">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Position</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Notes</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Developed by N.Kavipriyan | © 2025</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
