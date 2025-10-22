@@ -1,11 +1,11 @@
-# 🧩 Job Application Tracker
+#  Job Application Tracker
 
 A simple **Job Application Tracker** built with HTML, CSS, JavaScript (Frontend), and Express.js (Backend).  
 It helps users manage and track job applications efficiently.
 
 ---
 
-## 🚀 Project Structure
+##  Project Structure
 
 ```
 Job-Application-Tracker/
@@ -21,10 +21,10 @@ Job-Application-Tracker/
 
 ---
 
-## 🖥 Frontend Deployment (Vercel)
+##  Frontend Deployment (Vercel)
 
 ### Live Frontend URL
-➡️ **https://ibm-nj-job-application-tracker.vercel.app/**
+ **https://ibm-nj-job-application-tracker.vercel.app/**
 
 ### Steps:
 1. Push your frontend folder to GitHub.
@@ -35,10 +35,10 @@ Job-Application-Tracker/
 
 ---
 
-## ⚙️ Backend Setup (Render)
+##  Backend Setup (Render)
 
 ### Live Backend API
-➡️ **https://ibm-nj-job-application-tracker.onrender.com**
+ **https://ibm-nj-job-application-tracker.onrender.com**
 
 ### Local Setup:
 ```bash
@@ -54,11 +54,11 @@ Access locally: [http://localhost:5000](http://localhost:5000)
 3. Connect your backend GitHub repo.
 4. **Build Command:** `npm install`
 5. **Start Command:** `node server.js`
-6. Deploy 🎉
+6. Deploy 
 
 ---
 
-## 📡 API Documentation
+##  API Documentation
 
 ### Base URL
 ```
@@ -84,7 +84,7 @@ https://ibm-nj-job-application-tracker.onrender.com
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 **Frontend:** HTML, CSS, JavaScript  
 **Backend:** Node.js, Express.js  
@@ -92,7 +92,7 @@ https://ibm-nj-job-application-tracker.onrender.com
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Kavi Priyan**  
 Project for **IBM-Naan Mudhalvan (Job Application Tracker)**  
@@ -100,6 +100,6 @@ Department of **AI & DS**
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License**.
